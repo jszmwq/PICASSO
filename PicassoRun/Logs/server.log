@@ -1,0 +1,274 @@
+Listening for transport dt_socket at address: 5005
+Picasso Server started. Listening for client requests
+Request from Client 0 with Command 1:Get Client Id
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 1 with Command 15:Get QTD Names
+Request from Client 1 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 8:Estimate time to generate
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 7:Read Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 1 with Command 7:Read Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 1 with Command 16:Cancel Processing
+Request from Client 1 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 0 with Command 1:Get Client Id
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 2 with Command 15:Get QTD Names
+Request from Client 2 with Command 7:Read Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 2 with Command 6:Generate Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 0 with Command 1:Get Client Id
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 3 with Command 15:Get QTD Names
+Request from Client 3 with Command 7:Read Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 0 with Command 1:Get Client Id
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 4 with Command 15:Get QTD Names
+Request from Client 4 with Command 7:Read Diagram
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+For attrib <p_retailprice> table <part> schema <10> is found
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+For attrib <p_retailprice> table <part> schema <10> is found
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <p_retailprice> table <part> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <p_retailprice> table <part> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <p_retailprice> table <part> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <p_retailprice> table <part> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+For attrib <c_acctbal> table <customer> schema <10> is found
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+For attrib <c_acctbal> table <customer> schema <10> is found
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <p_retailprice> table <part> schema <10> is found
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <p_retailprice> table <part> schema <10> is found
+For attrib <ps_supplycost> table <partsupp> schema <10> is found
+PICASSO PREDICATE varies on Attribute<p_retailprice> relation<part> schema<10>
+PICASSO PREDICATE varies on Attribute<ps_supplycost> relation<partsupp> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <s_acctbal> table <supplier> schema <10> is found
+table<lineitem> attrib<l_extendedprice>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <s_acctbal> table <supplier> schema <10> is found
+table<lineitem> attrib<l_extendedprice>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <o_totalprice> table <orders> schema <10> is found
+For attrib <l_extendedprice> table <lineitem> schema <10> is found
+PICASSO PREDICATE varies on Attribute<o_totalprice> relation<orders> schema<10>
+PICASSO PREDICATE varies on Attribute<l_extendedprice> relation<lineitem> schema<10>
+Request from Client 4 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 4 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 0 with Command 1:Get Client Id
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 5 with Command 15:Get QTD Names
+Request from Client 5 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 5 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 5 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 5 with Command 8:Estimate time to generate
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 5 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 5 with Command 8:Estimate time to generate
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
+Request from Client 5 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <10> is found
+For attrib <s_acctbal> table <supplier> schema <10> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<10>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<10>
