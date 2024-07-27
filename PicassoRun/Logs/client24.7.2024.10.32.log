@@ -1,0 +1,16 @@
+ServerName localhost Port 4444
+ Message 1:Get Client Id sent to Server localhost
+Message 1:Get Client Id received from Server; Status: &MSG=END
+ Message 32:Set Server Setting sent to Server localhost
+Message 4: received from Server; Status: Setting Set
+ Message 32:Set Server Setting sent to Server localhost
+Message 4: received from Server; Status: Setting Set
+ Message 7:Read Diagram sent to Server localhost
+Message 2: received from Server; Status: No DBConnection present
+ Message 15:Get QTD Names sent to Server localhost
+Message 4: received from Server; Status: Fetching QueryTemplate List
+Message 4: received from Server; Status: QueryTemplate List fetched
+Message 15:Get QTD Names received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Reading Picasso Diagram
+Message 7:Read Diagram received from Server; Status: &MSG=END

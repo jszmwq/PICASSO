@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach to Picasso Server",
+            "hostName": "localhost",
+            "port": 5005,
+            "projectName": "PicassoServer",
+            "sourcePaths": [
+                "${workspaceFolder}/PicassoServer",
+                "${workspaceFolder}/PicassoCommon",
+            ]
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach to Picasso Client",
+            "hostName": "localhost",
+            "port": 6006,
+            "projectName": "PicassoClient",
+            "sourcePaths": [
+                "${workspaceFolder}/PicassoCommon",
+                "${workspaceFolder}/PicassoClient"
+            ]
+        }
+    ]
+}

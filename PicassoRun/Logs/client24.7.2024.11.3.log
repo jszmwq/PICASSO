@@ -1,0 +1,126 @@
+ServerName localhost Port 4444
+ Message 1:Get Client Id sent to Server localhost
+Message 1:Get Client Id received from Server; Status: &MSG=END
+ Message 32:Set Server Setting sent to Server localhost
+Message 4: received from Server; Status: Setting Set
+ Message 32:Set Server Setting sent to Server localhost
+Message 4: received from Server; Status: Setting Set
+ Message 15:Get QTD Names sent to Server localhost
+Message 4: received from Server; Status: Fetching QueryTemplate List
+Message 4: received from Server; Status: QueryTemplate List fetched
+Message 15:Get QTD Names received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Reading Picasso Diagram
+Message 7:Read Diagram received from Server; Status: &MSG=END
+ Message 8:Estimate time to generate sent to Server localhost
+Message 4: received from Server; Status: Estimating Time to Generate. Please Wait
+Message 8:Estimate time to generate received from Server; Status: Estimated Time to Generate Exact Picasso Diagram is 1 hr 7 min.
+ Message 6:Generate Diagram sent to Server localhost
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: 1%    Elapsed Time: 0 min 34 sec      Estimated Time to Complete: 57 min 8 sec
+Message 4: received from Server; Status: 2%    Elapsed Time: 1 min 18 sec      Estimated Time to Complete: 1 hr 4 min
+Message 4: received from Server; Status: 3%    Elapsed Time: 1 min 57 sec      Estimated Time to Complete: 1 hr 3 min
+Message 4: received from Server; Status: 4%    Elapsed Time: 2 min 34 sec      Estimated Time to Complete: 1 hr 1 min
+Message 4: received from Server; Status: 5%    Elapsed Time: 3 min 13 sec      Estimated Time to Complete: 1 hr 1 min
+Message 4: received from Server; Status: 6%    Elapsed Time: 3 min 55 sec      Estimated Time to Complete: 1 hr 1 min
+Message 4: received from Server; Status: 7%    Elapsed Time: 4 min 38 sec      Estimated Time to Complete: 1 hr 1 min
+Message 4: received from Server; Status: 8%    Elapsed Time: 5 min 20 sec      Estimated Time to Complete: 1 hr 1 min
+Message 4: received from Server; Status: 9%    Elapsed Time: 6 min 1 sec      Estimated Time to Complete: 1 hr 0 min
+Message 4: received from Server; Status: 10%    Elapsed Time: 6 min 38 sec      Estimated Time to Complete: 59 min 46 sec
+Message 4: received from Server; Status: 11%    Elapsed Time: 7 min 12 sec      Estimated Time to Complete: 58 min 22 sec
+Message 4: received from Server; Status: 12%    Elapsed Time: 7 min 49 sec      Estimated Time to Complete: 57 min 21 sec
+Message 4: received from Server; Status: 13%    Elapsed Time: 8 min 23 sec      Estimated Time to Complete: 56 min 7 sec
+Message 4: received from Server; Status: 14%    Elapsed Time: 9 min 3 sec      Estimated Time to Complete: 55 min 37 sec
+Message 4: received from Server; Status: 15%    Elapsed Time: 9 min 43 sec      Estimated Time to Complete: 55 min 4 sec
+Message 4: received from Server; Status: 16%    Elapsed Time: 10 min 23 sec      Estimated Time to Complete: 54 min 31 sec
+Message 4: received from Server; Status: 17%    Elapsed Time: 11 min 2 sec      Estimated Time to Complete: 53 min 55 sec
+Message 4: received from Server; Status: 18%    Elapsed Time: 11 min 41 sec      Estimated Time to Complete: 53 min 16 sec
+Message 4: received from Server; Status: 19%    Elapsed Time: 12 min 17 sec      Estimated Time to Complete: 52 min 23 sec
+Message 4: received from Server; Status: 20%    Elapsed Time: 12 min 54 sec      Estimated Time to Complete: 51 min 36 sec
+Message 4: received from Server; Status: 21%    Elapsed Time: 13 min 29 sec      Estimated Time to Complete: 50 min 44 sec
+Message 4: received from Server; Status: 22%    Elapsed Time: 14 min 3 sec      Estimated Time to Complete: 49 min 51 sec
+Message 4: received from Server; Status: 23%    Elapsed Time: 14 min 38 sec      Estimated Time to Complete: 49 min 0 sec
+Message 4: received from Server; Status: 24%    Elapsed Time: 15 min 12 sec      Estimated Time to Complete: 48 min 10 sec
+Message 4: received from Server; Status: 25%    Elapsed Time: 15 min 47 sec      Estimated Time to Complete: 47 min 21 sec
+Message 4: received from Server; Status: 26%    Elapsed Time: 16 min 21 sec      Estimated Time to Complete: 46 min 33 sec
+Message 4: received from Server; Status: 27%    Elapsed Time: 16 min 55 sec      Estimated Time to Complete: 45 min 46 sec
+Message 4: received from Server; Status: 28%    Elapsed Time: 17 min 30 sec      Estimated Time to Complete: 45 min 1 sec
+Message 4: received from Server; Status: 29%    Elapsed Time: 18 min 5 sec      Estimated Time to Complete: 44 min 17 sec
+Message 4: received from Server; Status: 30%    Elapsed Time: 18 min 39 sec      Estimated Time to Complete: 43 min 33 sec
+Message 4: received from Server; Status: 31%    Elapsed Time: 19 min 14 sec      Estimated Time to Complete: 42 min 49 sec
+Message 4: received from Server; Status: 32%    Elapsed Time: 19 min 49 sec      Estimated Time to Complete: 42 min 6 sec
+Message 4: received from Server; Status: 33%    Elapsed Time: 20 min 22 sec      Estimated Time to Complete: 41 min 23 sec
+Message 4: received from Server; Status: 34%    Elapsed Time: 20 min 56 sec      Estimated Time to Complete: 40 min 39 sec
+Message 4: received from Server; Status: 35%    Elapsed Time: 21 min 30 sec      Estimated Time to Complete: 39 min 56 sec
+Message 4: received from Server; Status: 36%    Elapsed Time: 22 min 4 sec      Estimated Time to Complete: 39 min 14 sec
+Message 4: received from Server; Status: 37%    Elapsed Time: 22 min 38 sec      Estimated Time to Complete: 38 min 32 sec
+Message 4: received from Server; Status: 38%    Elapsed Time: 23 min 12 sec      Estimated Time to Complete: 37 min 51 sec
+Message 4: received from Server; Status: 39%    Elapsed Time: 23 min 46 sec      Estimated Time to Complete: 37 min 10 sec
+Message 4: received from Server; Status: 40%    Elapsed Time: 24 min 20 sec      Estimated Time to Complete: 36 min 30 sec
+Message 4: received from Server; Status: 41%    Elapsed Time: 24 min 54 sec      Estimated Time to Complete: 35 min 50 sec
+Message 4: received from Server; Status: 42%    Elapsed Time: 25 min 27 sec      Estimated Time to Complete: 35 min 9 sec
+Message 4: received from Server; Status: 43%    Elapsed Time: 26 min 1 sec      Estimated Time to Complete: 34 min 30 sec
+Message 4: received from Server; Status: 44%    Elapsed Time: 26 min 35 sec      Estimated Time to Complete: 33 min 51 sec
+Message 4: received from Server; Status: 45%    Elapsed Time: 27 min 9 sec      Estimated Time to Complete: 33 min 11 sec
+Message 4: received from Server; Status: 46%    Elapsed Time: 27 min 43 sec      Estimated Time to Complete: 32 min 33 sec
+Message 4: received from Server; Status: 47%    Elapsed Time: 28 min 17 sec      Estimated Time to Complete: 31 min 54 sec
+Message 4: received from Server; Status: 48%    Elapsed Time: 28 min 51 sec      Estimated Time to Complete: 31 min 16 sec
+Message 4: received from Server; Status: 49%    Elapsed Time: 29 min 27 sec      Estimated Time to Complete: 30 min 39 sec
+Message 4: received from Server; Status: 50%    Elapsed Time: 30 min 4 sec      Estimated Time to Complete: 30 min 4 sec
+Message 4: received from Server; Status: 51%    Elapsed Time: 30 min 38 sec      Estimated Time to Complete: 29 min 26 sec
+Message 4: received from Server; Status: 52%    Elapsed Time: 31 min 12 sec      Estimated Time to Complete: 28 min 48 sec
+Message 4: received from Server; Status: 53%    Elapsed Time: 31 min 48 sec      Estimated Time to Complete: 28 min 12 sec
+Message 4: received from Server; Status: 54%    Elapsed Time: 32 min 23 sec      Estimated Time to Complete: 27 min 35 sec
+Message 4: received from Server; Status: 55%    Elapsed Time: 32 min 58 sec      Estimated Time to Complete: 26 min 59 sec
+Message 4: received from Server; Status: 56%    Elapsed Time: 33 min 34 sec      Estimated Time to Complete: 26 min 23 sec
+Message 4: received from Server; Status: 57%    Elapsed Time: 34 min 11 sec      Estimated Time to Complete: 25 min 47 sec
+Message 4: received from Server; Status: 58%    Elapsed Time: 34 min 49 sec      Estimated Time to Complete: 25 min 12 sec
+Message 4: received from Server; Status: 59%    Elapsed Time: 35 min 27 sec      Estimated Time to Complete: 24 min 38 sec
+Message 4: received from Server; Status: 60%    Elapsed Time: 36 min 5 sec      Estimated Time to Complete: 24 min 3 sec
+Message 4: received from Server; Status: 61%    Elapsed Time: 36 min 41 sec      Estimated Time to Complete: 23 min 27 sec
+Message 4: received from Server; Status: 62%    Elapsed Time: 37 min 19 sec      Estimated Time to Complete: 22 min 52 sec
+Message 4: received from Server; Status: 63%    Elapsed Time: 37 min 54 sec      Estimated Time to Complete: 22 min 15 sec
+Message 4: received from Server; Status: 64%    Elapsed Time: 38 min 29 sec      Estimated Time to Complete: 21 min 38 sec
+Message 4: received from Server; Status: 65%    Elapsed Time: 39 min 4 sec      Estimated Time to Complete: 21 min 2 sec
+Message 4: received from Server; Status: 66%    Elapsed Time: 39 min 39 sec      Estimated Time to Complete: 20 min 25 sec
+Message 4: received from Server; Status: 67%    Elapsed Time: 40 min 14 sec      Estimated Time to Complete: 19 min 49 sec
+Message 4: received from Server; Status: 68%    Elapsed Time: 40 min 52 sec      Estimated Time to Complete: 19 min 13 sec
+Message 4: received from Server; Status: 69%    Elapsed Time: 41 min 27 sec      Estimated Time to Complete: 18 min 37 sec
+Message 4: received from Server; Status: 70%    Elapsed Time: 42 min 2 sec      Estimated Time to Complete: 18 min 1 sec
+Message 4: received from Server; Status: 71%    Elapsed Time: 42 min 41 sec      Estimated Time to Complete: 17 min 26 sec
+Message 4: received from Server; Status: 72%    Elapsed Time: 43 min 18 sec      Estimated Time to Complete: 16 min 50 sec
+Message 4: received from Server; Status: 73%    Elapsed Time: 43 min 53 sec      Estimated Time to Complete: 16 min 14 sec
+Message 4: received from Server; Status: 74%    Elapsed Time: 44 min 30 sec      Estimated Time to Complete: 15 min 38 sec
+Message 4: received from Server; Status: 75%    Elapsed Time: 45 min 7 sec      Estimated Time to Complete: 15 min 2 sec
+Message 4: received from Server; Status: 76%    Elapsed Time: 45 min 44 sec      Estimated Time to Complete: 14 min 26 sec
+Message 4: received from Server; Status: 77%    Elapsed Time: 46 min 24 sec      Estimated Time to Complete: 13 min 51 sec
+Message 4: received from Server; Status: 78%    Elapsed Time: 47 min 1 sec      Estimated Time to Complete: 13 min 15 sec
+Message 4: received from Server; Status: 79%    Elapsed Time: 47 min 39 sec      Estimated Time to Complete: 12 min 40 sec
+Message 4: received from Server; Status: 80%    Elapsed Time: 48 min 14 sec      Estimated Time to Complete: 12 min 3 sec
+Message 4: received from Server; Status: 81%    Elapsed Time: 48 min 48 sec      Estimated Time to Complete: 11 min 26 sec
+Message 4: received from Server; Status: 82%    Elapsed Time: 49 min 22 sec      Estimated Time to Complete: 10 min 50 sec
+Message 4: received from Server; Status: 83%    Elapsed Time: 49 min 56 sec      Estimated Time to Complete: 10 min 13 sec
+Message 4: received from Server; Status: 84%    Elapsed Time: 50 min 30 sec      Estimated Time to Complete: 9 min 37 sec
+Message 4: received from Server; Status: 85%    Elapsed Time: 51 min 5 sec      Estimated Time to Complete: 9 min 0 sec
+Message 4: received from Server; Status: 86%    Elapsed Time: 51 min 39 sec      Estimated Time to Complete: 8 min 24 sec
+Message 4: received from Server; Status: 87%    Elapsed Time: 52 min 13 sec      Estimated Time to Complete: 7 min 48 sec
+Message 4: received from Server; Status: 88%    Elapsed Time: 52 min 47 sec      Estimated Time to Complete: 7 min 11 sec
+Message 4: received from Server; Status: 89%    Elapsed Time: 53 min 21 sec      Estimated Time to Complete: 6 min 35 sec
+Message 4: received from Server; Status: 90%    Elapsed Time: 53 min 55 sec      Estimated Time to Complete: 5 min 59 sec
+Message 4: received from Server; Status: 91%    Elapsed Time: 54 min 29 sec      Estimated Time to Complete: 5 min 23 sec
+Message 4: received from Server; Status: 92%    Elapsed Time: 55 min 3 sec      Estimated Time to Complete: 4 min 47 sec
+Message 4: received from Server; Status: 93%    Elapsed Time: 55 min 37 sec      Estimated Time to Complete: 4 min 11 sec
+Message 4: received from Server; Status: 94%    Elapsed Time: 56 min 10 sec      Estimated Time to Complete: 3 min 35 sec
+Message 4: received from Server; Status: 95%    Elapsed Time: 56 min 44 sec      Estimated Time to Complete: 2 min 59 sec
+Message 4: received from Server; Status: 96%    Elapsed Time: 57 min 17 sec      Estimated Time to Complete: 2 min 23 sec
+Message 4: received from Server; Status: 97%    Elapsed Time: 57 min 50 sec      Estimated Time to Complete: 1 min 47 sec
+Message 4: received from Server; Status: 98%    Elapsed Time: 58 min 24 sec      Estimated Time to Complete: 1 min 11 sec
+Message 4: received from Server; Status: 99%    Elapsed Time: 58 min 57 sec      Estimated Time to Complete: 0 min 35 sec
+Message 4: received from Server; Status: Saving Picasso Diagram
+Message 4: received from Server; Status: Saving Picasso Diagram: 50% completed
+Message 4: received from Server; Status: Saving Picasso Diagram: 100% completed
+Message 4: received from Server; Status: Saving Selectivity Logs
+Message 4: received from Server; Status: Saving Plan Trees
+Message 4: received from Server; Status: Finished. Duration 1 hr 2 min
+Message 7:Read Diagram received from Server; Status: &MSG=END

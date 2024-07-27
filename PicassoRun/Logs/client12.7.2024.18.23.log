@@ -1,0 +1,483 @@
+ServerName localhost Port 4444
+Exception: java.net.ConnectException: Connection refused: connect
+ Message 32:Set Server Setting sent to Server localhost
+ Message 32:Set Server Setting sent to Server localhost
+Message 4: received from Server; Status: Setting Set
+Message 4: received from Server; Status: Setting Set
+ Message 15:Get QTD Names sent to Server localhost
+Message 2: received from Server; Status: Client message has invalid message id or client id
+ Message 15:Get QTD Names sent to Server localhost
+Message 2: received from Server; Status: Client message has invalid message id or client id
+ Message 1:Get Client Id sent to Server localhost
+Message 1:Get Client Id received from Server; Status: &MSG=END
+ Message 15:Get QTD Names sent to Server localhost
+Message 2: received from Server; Status: Database Engine mypg is not accepting connections
+ Message 15:Get QTD Names sent to Server localhost
+Message 4: received from Server; Status: Fetching QueryTemplate List
+Message 4: received from Server; Status: QueryTemplate List fetched
+Message 15:Get QTD Names received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Estimating time to generate
+Message 8:Estimate time to generate received from Server; Status: QTID: POSTGRES_Default_U_ exists and settings have changed.
+QueryTemplate changed 
+Resolution on dimension 0 changed from 1000 to 10
+Resolution on dimension 1 changed from 1000 to 10
+Do you want to generate and overwrite existing diagram?
+
+Estimated Time to Generate Exact Picasso Diagram is 30 sec.
+ Message 6:Generate Diagram sent to Server localhost
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: 2%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 1 sec
+Message 4: received from Server; Status: 3%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 4%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 5%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 6%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 7%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 8%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 9%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 10%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 11%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 12%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 13%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 14%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 15%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 16%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 17%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 18%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 19%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 20%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 21%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 22%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 23%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 24%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 25%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 26%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 27%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 28%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 29%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 30%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 31%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 32%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 33%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 34%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 35%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 36%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 37%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 38%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 39%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 40%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 41%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 42%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 43%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 44%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 45%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 46%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 47%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 48%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 49%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 50%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 51%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 52%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 53%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 54%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 55%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 56%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 57%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 58%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 59%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 60%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 61%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 62%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 63%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 64%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 65%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 66%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 67%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 68%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 69%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 70%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 71%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 72%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 73%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 74%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 75%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 76%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 77%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 78%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 79%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 80%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 81%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 82%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 83%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 84%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 85%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 86%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 87%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 88%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 89%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 90%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 91%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 92%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 93%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 94%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 95%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 96%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 97%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 98%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 99%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 100%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: Saving Picasso Diagram
+Message 4: received from Server; Status: Saving Picasso Diagram: 50% completed
+Message 4: received from Server; Status: Saving Picasso Diagram: 100% completed
+Message 4: received from Server; Status: Saving Selectivity Logs
+Message 4: received from Server; Status: Saving Plan Trees
+Message 4: received from Server; Status: Finished. Duration 0 min 1 sec
+Message 7:Read Diagram received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Reading Picasso Diagram
+Message 7:Read Diagram received from Server; Status: &MSG=END
+ Message 8:Estimate time to generate sent to Server localhost
+Message 4: received from Server; Status: Estimating Time to Generate. Please Wait
+Message 8:Estimate time to generate received from Server; Status: Estimated Time to Generate Exact Picasso Diagram is 30 sec.
+ Message 6:Generate Diagram sent to Server localhost
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: 2%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 1 sec
+Message 4: received from Server; Status: 3%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 4%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 5%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 6%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 7%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 8%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 9%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 10%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 11%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 12%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 13%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 14%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 15%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 16%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 17%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 18%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 19%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 20%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 21%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 22%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 23%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 24%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 25%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 26%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 27%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 28%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 29%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 30%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 31%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 32%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 33%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 34%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 35%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 36%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 37%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 38%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 39%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 40%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 41%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 42%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 43%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 44%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 45%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 46%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 47%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 48%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 49%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 50%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 51%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 52%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 53%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 54%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 55%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 56%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 57%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 58%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 59%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 60%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 61%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 62%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 63%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 64%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 65%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 66%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 67%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 68%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 69%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 70%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 71%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 72%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 73%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 74%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 75%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 76%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 77%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 78%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 79%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 80%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 81%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 82%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 83%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 84%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 85%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 86%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 87%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 88%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 89%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 90%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 91%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 92%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 93%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 94%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 95%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 96%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 97%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 98%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 99%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 100%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: Saving Picasso Diagram
+Message 4: received from Server; Status: Saving Picasso Diagram: 50% completed
+Message 4: received from Server; Status: Saving Picasso Diagram: 100% completed
+Message 4: received from Server; Status: Saving Selectivity Logs
+Message 4: received from Server; Status: Saving Plan Trees
+Message 4: received from Server; Status: Finished. Duration 0 min 0 sec
+Message 7:Read Diagram received from Server; Status: &MSG=END
+ Message 15:Get QTD Names sent to Server localhost
+Message 4: received from Server; Status: Fetching QueryTemplate List
+Message 4: received from Server; Status: QueryTemplate List fetched
+Message 15:Get QTD Names received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Estimating time to generate
+Message 8:Estimate time to generate received from Server; Status: QTID: POSTGRES_Default_U_ exists and settings have changed.
+QueryTemplate changed 
+Do you want to generate and overwrite existing diagram?
+
+Estimated Time to Generate Exact Picasso Diagram is 30 sec.
+ Message 6:Generate Diagram sent to Server localhost
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: 2%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 1 sec
+Message 4: received from Server; Status: 3%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 4%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 5%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 6%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 7%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 8%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 9%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 10%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 11%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 12%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 13%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 14%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 15%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 16%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 17%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 18%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 19%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 20%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 21%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 22%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 23%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 24%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 25%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 26%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 27%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 28%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 29%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 30%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 31%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 32%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 33%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 34%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 35%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 36%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 37%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 38%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 39%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 40%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 41%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 42%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 43%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 44%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 45%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 46%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 47%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 48%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 49%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 50%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 51%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 52%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 53%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 54%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 55%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 56%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 57%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 58%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 59%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 60%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 61%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 62%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 63%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 64%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 65%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 66%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 67%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 68%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 69%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 70%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 71%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 72%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 73%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 74%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 75%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 76%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 77%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 78%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 79%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 80%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 81%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 82%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 83%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 84%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 85%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 86%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 87%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 88%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 89%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 90%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 91%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 92%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 93%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 94%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 95%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 96%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 97%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 98%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 99%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 100%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: Saving Picasso Diagram
+Message 4: received from Server; Status: Saving Picasso Diagram: 50% completed
+Message 4: received from Server; Status: Saving Picasso Diagram: 100% completed
+Message 4: received from Server; Status: Saving Selectivity Logs
+Message 4: received from Server; Status: Saving Plan Trees
+Message 4: received from Server; Status: Finished. Duration 0 min 0 sec
+Message 7:Read Diagram received from Server; Status: &MSG=END
+ Message 8:Estimate time to generate sent to Server localhost
+Message 4: received from Server; Status: Estimating Time to Generate. Please Wait
+Message 8:Estimate time to generate received from Server; Status: Estimated Time to Generate Exact Picasso Diagram is 30 sec.
+ Message 6:Generate Diagram sent to Server localhost
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: 2%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 1 sec
+Message 4: received from Server; Status: 3%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 4%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 5%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 6%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 7%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 8%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 9%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 10%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 11%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 12%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 13%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 14%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 15%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 16%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 17%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 18%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 19%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 20%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 21%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 22%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 23%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 24%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 25%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 26%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 27%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 28%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 29%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 30%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 31%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 32%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 33%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 34%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 35%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 36%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 37%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 38%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 39%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 40%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 41%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 42%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 43%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 44%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 45%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 46%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 47%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 48%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 49%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 50%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 51%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 52%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 53%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 54%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 55%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 56%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 57%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 58%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 59%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 60%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 61%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 62%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 63%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 64%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 65%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 66%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 67%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 68%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 69%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 70%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 71%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 72%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 73%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 74%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 75%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 76%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 77%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 78%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 79%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 80%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 81%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 82%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 83%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 84%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 85%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 86%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 87%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 88%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 89%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 90%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 91%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 92%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 93%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 94%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 95%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 96%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 97%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 98%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 99%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: 100%    Elapsed Time: 0 min 0 sec      Estimated Time to Complete: 0 min 0 sec
+Message 4: received from Server; Status: Saving Picasso Diagram
+Message 4: received from Server; Status: Saving Picasso Diagram: 50% completed
+Message 4: received from Server; Status: Saving Picasso Diagram: 100% completed
+Message 4: received from Server; Status: Saving Selectivity Logs
+Message 4: received from Server; Status: Saving Plan Trees
+Message 4: received from Server; Status: Finished. Duration 0 min 0 sec
+Message 7:Read Diagram received from Server; Status: &MSG=END

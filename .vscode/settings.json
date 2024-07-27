@@ -1,0 +1,27 @@
+{
+    "java.project.sourcePaths": [
+        "PicassoClient",
+        "PicassoCommon",
+        "PicassoDoc/Code",
+        "PicassoServer"
+    ],
+    "java.project.referencedLibraries": [
+        "Libraries/db2jcc.jar",
+        "Libraries/db2jcc4.jar",
+        "Libraries/db2jcc_license_cu.jar",
+        "Libraries/db2policy.jar",
+        "Libraries/j3dcore.jar",
+        "Libraries/j3dutils.jar",
+        "Libraries/jconn3.jar",
+        "Libraries/jgraph.jar",
+        "Libraries/jgraphlayout.jar",
+        "Libraries/mysql-connector-java-5.1.8-bin.jar",
+        "Libraries/ojdbc14.jar",
+        "Libraries/pic_linearalgebra.jar",
+        "Libraries/postgresql-8.0-311.jdbc3.jar",
+        "Libraries/sqljdbc4.jar",
+        "Libraries/swing-layout-1.0.jar",
+        "Libraries/vecmath.jar",
+        "Libraries/visad.jar"
+    ]
+}

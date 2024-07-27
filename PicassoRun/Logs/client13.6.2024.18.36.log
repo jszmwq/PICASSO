@@ -1,0 +1,26 @@
+ServerName localhost Port 4444
+ Message 1:Get Client Id sent to Server localhost
+ Message 32:Set Server Setting sent to Server localhost
+ Message 32:Set Server Setting sent to Server localhost
+Message 4: received from Server; Status: Setting Set
+Message 4: received from Server; Status: Setting Set
+Message 1:Get Client Id received from Server; Status: &MSG=END
+ Message 15:Get QTD Names sent to Server localhost
+Message 4: received from Server; Status: Fetching QueryTemplate List
+Message 4: received from Server; Status: QueryTemplate List fetched
+Message 15:Get QTD Names received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Reading Picasso Diagram
+Message 7:Read Diagram received from Server; Status: &MSG=END
+ Message 7:Read Diagram sent to Server localhost
+Message 4: received from Server; Status: Estimating time to generate
+Message 8:Estimate time to generate received from Server; Status: QTID: POSTGRES_Default_U_ exists and settings have changed.
+No. of dimensions changed from 2 to 1
+QueryTemplate changed 
+Resolution on dimension 0 changed from 100 to 10
+Do you want to generate and overwrite existing diagram?
+
+Estimated Time to Generate Exact Picasso Diagram is 30 sec.
+ Message 6:Generate Diagram sent to Server localhost
+Message 4: received from Server; Status: Generating Compilation Diagram
+Message 4: received from Server; Status: Generating Compilation Diagram
