@@ -1,0 +1,40 @@
+Listening for transport dt_socket at address: 5005
+Picasso Server started. Listening for client requests
+Request from Client 0 with Command 1:Get Client Id
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 0 with Command 32:Set Server Setting
+The constants now are 1 false
+Request from Client 1 with Command 15:Get QTD Names
+Request from Client 1 with Command 15:Get QTD Names
+Request from Client 1 with Command 15:Get QTD Names
+Request from Client 1 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <16398> is found
+For attrib <s_acctbal> table <supplier> schema <16398> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<16398>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<16398>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <16398> is found
+For attrib <s_acctbal> table <supplier> schema <16398> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<16398>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<16398>
+Request from Client 1 with Command 8:Estimate time to generate
+For attrib <c_acctbal> table <customer> schema <16398> is found
+For attrib <s_acctbal> table <supplier> schema <16398> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<16398>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<16398>
+Request from Client 1 with Command 7:Read Diagram
+For attrib <c_acctbal> table <customer> schema <16398> is found
+For attrib <s_acctbal> table <supplier> schema <16398> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<16398>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<16398>
+Request from Client 1 with Command 8:Estimate time to generate
+For attrib <c_acctbal> table <customer> schema <16398> is found
+For attrib <s_acctbal> table <supplier> schema <16398> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<16398>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<16398>
+Request from Client 1 with Command 6:Generate Diagram
+For attrib <c_acctbal> table <customer> schema <16398> is found
+For attrib <s_acctbal> table <supplier> schema <16398> is found
+PICASSO PREDICATE varies on Attribute<c_acctbal> relation<customer> schema<16398>
+PICASSO PREDICATE varies on Attribute<s_acctbal> relation<supplier> schema<16398>
