@@ -468,8 +468,7 @@ public class StoreDiagram {
     // }
 
     // ?????????????��???
-    public static void mergeGrids(Map<Integer, List<Grid>> planidToGridMap, Grid[][] AllgridsArray, int NROWS, int NCOLS) {
-        String filename = "E:/PICASSO-master/Polygons/polygons.txt";
+    public static void mergeGrids(String filename, Map<Integer, List<Grid>> planidToGridMap, Grid[][] AllgridsArray, int NROWS, int NCOLS) {
         boolean ClearFlag = true;
         int planNumber = planidToGridMap.size();
         for (Map.Entry<Integer, List<Grid>> entry : planidToGridMap.entrySet()) {
@@ -598,12 +597,12 @@ public class StoreDiagram {
 		if(maxConditions!=1)
 			NROWS = gdp.getResolution(PicassoConstants.a[1]);
 		int NCOLS = gdp.getResolution(PicassoConstants.a[0]);
-		// int[][] sortedPlan;
-		
-		// if ( type == 1 )
-		// 	sortedPlan = panel.getExecSortedPlan();
-		// else
-		// 	sortedPlan = panel.getSortedPlan();
+        
+		int[][] sortedPlan;
+		if ( type == 1 )
+			sortedPlan = panel.getExecSortedPlan();
+		else
+			sortedPlan = panel.getSortedPlan();
 		
 		DataValues[] data = gdp.getData();
         float[] sValues = gdp.getPicassoSelectivity();
@@ -614,8 +613,8 @@ public class StoreDiagram {
         for (int i=0; i < NROWS; i++) {
             for (int j=0; j < NCOLS; j++) {
                 Point gridCenter = new Point(sValues[j], sValues[i + gdp.getResolution(0)]);
-                planid = data[i*NCOLS+j].getPlanNumber();
-            //    planid = sortedPlan[0][data[i*NCOLS+j].getPlanNumber()];
+                // planid = data[i*NCOLS+j].getPlanNumber();
+                planid = sortedPlan[0][data[i*NCOLS+j].getPlanNumber()];
                 Grid grid = new Grid(gridCenter.x, gridCenter.y, planid, i, j);
                 AllgridsArray[i][j] = grid;
                 if (!planidToGridMap.containsKey(planid)) {
@@ -624,6 +623,9 @@ public class StoreDiagram {
                 planidToGridMap.get(planid).add(grid);
             }
         }
-        mergeGrids(planidToGridMap, AllgridsArray, NROWS, NCOLS);
+
+        String sep = System.getProperty("file.separator");
+        String filePath = panel.getCurrentDir() + sep + "Polygons" + sep + "polygons_" + panel.getQueryName() + ".txt";
+        mergeGrids(filePath, planidToGridMap, AllgridsArray, NROWS, NCOLS);
     }
 }

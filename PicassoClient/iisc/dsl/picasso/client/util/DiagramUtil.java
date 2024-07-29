@@ -159,13 +159,16 @@ public class DiagramUtil {
 				int planid;
 				float[] sValues = gdp.getPicassoSelectivity();
                 
-				String filePath = "E:/PICASSO-master/Polygons/grid.txt";
+				String sep = System.getProperty("file.separator");
+				String filePath = panel.getCurrentDir() + sep + "Polygons" + sep + "grids_" + panel.getQueryName() + ".txt";
 				BufferedWriter writer = null;
 				try {
 					FileOutputStream fos = new FileOutputStream(filePath);
                     OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
                     writer = new BufferedWriter(osw);
-					DecimalFormat df = new DecimalFormat("#.###");
+					writer.write(String.valueOf(gdp.getMaxPlanNumber()));
+					writer.newLine();
+					DecimalFormat df = new DecimalFormat("0.000");
 					for (int i=0; i < NROWS; i++) {
 						for (int j=0; j < NCOLS; j++) {
 							planid = sortedPlan[0][data[i*NCOLS+j].getPlanNumber()];
