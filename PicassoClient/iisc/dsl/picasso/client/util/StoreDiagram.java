@@ -9,6 +9,7 @@ import iisc.dsl.picasso.common.ds.DiagramPacket;
 
 import java.io.IOException;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
@@ -16,6 +17,7 @@ import java.text.SimpleDateFormat;
 
 
 public class StoreDiagram {
+    private static final Set<String> loggedMetricKeys = new HashSet<String>();
 
     // ????????
     public static class Point implements Comparable<Point> {
@@ -468,9 +470,13 @@ public class StoreDiagram {
     // }
 
     // ?????????????��???
-    public static void mergeGrids(String filename, Map<Integer, List<Grid>> planidToGridMap, Grid[][] AllgridsArray, int NROWS, int NCOLS) {
+    public static void mergeGrids(String filename, Map<Integer, List<Grid>> planidToGridMap, Grid[][] AllgridsArray,
+            int NROWS, int NCOLS, long diagramGenMs, long diagramGenTimeMs) {
         boolean ClearFlag = true;
         int planNumber = planidToGridMap.size();
+        long mergeStartTime = System.currentTimeMillis();
+        int totalRegions = 0;
+        int totalPolygons = 0;
         for (Map.Entry<Integer, List<Grid>> entry : planidToGridMap.entrySet()) {
             int planid = entry.getKey();
             System.out.println(" Planid :  " + planid );
@@ -540,6 +546,8 @@ public class StoreDiagram {
 
                 //sort
                 List<List<Point>> polygonVerticesList = sortVertice(polygonVertices, NROWS, NCOLS);
+                totalRegions++;
+                totalPolygons += polygonVerticesList.size();
                 writePolygonToFile(filename, polygonVerticesList, planid, ClearFlag, planNumber);
                 ClearFlag = false;
 
@@ -554,6 +562,51 @@ public class StoreDiagram {
             formattedDate = sdf.format(end);  
             // ??????????????  
             System.out.println("end???: " + formattedDate);
+        }
+        long mergeEndTime = System.currentTimeMillis();
+        writePolygonMetrics(filename, NROWS, NCOLS, planNumber, totalRegions, totalPolygons, diagramGenMs,
+                diagramGenTimeMs, mergeEndTime - mergeStartTime);
+    }
+
+    public static void writePolygonMetrics(String polygonsFile, int nrows, int ncols, int distinctPlans,
+            int regions, int polygons, long diagramGenMs, long diagramGenTimeMs, long polygonGenMs) {
+        String metricsPath = polygonsFile;
+        if (metricsPath.toLowerCase().endsWith(".txt")) {
+            metricsPath = metricsPath.substring(0, metricsPath.length() - 4) + "_metrics.csv";
+        } else {
+            metricsPath = metricsPath + "_metrics.csv";
+        }
+
+        String dedupeKey;
+        if (diagramGenTimeMs > 0) {
+            dedupeKey = polygonsFile + "|" + nrows + "x" + ncols + "|" + diagramGenTimeMs;
+        } else {
+            dedupeKey = polygonsFile + "|" + nrows + "x" + ncols + "|" + diagramGenMs + "|" + polygonGenMs + "|"
+                    + distinctPlans + "|" + regions + "|" + polygons;
+        }
+        synchronized (StoreDiagram.class) {
+            if (loggedMetricKeys.contains(dedupeKey)) {
+                return;
+            }
+            loggedMetricKeys.add(dedupeKey);
+        }
+
+        boolean writeHeader = !new File(metricsPath).exists();
+        BufferedWriter writer = null;
+        try {
+            FileOutputStream fos = new FileOutputStream(metricsPath, true);
+            OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
+            writer = new BufferedWriter(osw);
+            if (writeHeader) {
+                writer.write("timestamp,rows,cols,distinct_plans,regions,polygons,diagram_ms,polygon_ms,polygons_file\n");
+            }
+            String timestamp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
+            String safePath = polygonsFile.replace("\"", "\"\"");
+            writer.write(timestamp + "," + nrows + "," + ncols + "," + distinctPlans + "," + regions + ","
+                    + polygons + "," + diagramGenMs + "," + polygonGenMs + ",\"" + safePath + "\"\n");
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -624,8 +677,22 @@ public class StoreDiagram {
             }
         }
 
+        String queryName = panel.getQueryName();
+        if (gdp.getQueryPacket() != null) {
+            String packetName = gdp.getQueryPacket().getQueryName();
+            if (packetName != null && packetName.trim().length() > 0) {
+                queryName = packetName;
+            }
+        }
+        String fileStem = "polygons_" + queryName + "_" + NROWS + "x" + NCOLS;
         String sep = System.getProperty("file.separator");
-        String filePath = panel.getCurrentDir() + sep + "Polygons" + sep + "polygons_" + panel.getQueryName() + ".txt";
-        mergeGrids(filePath, planidToGridMap, AllgridsArray, NROWS, NCOLS);
+        String filePath = panel.getCurrentDir() + sep + "Polygons" + sep + fileStem + ".txt";
+        long diagramGenMs = -1;
+        long diagramGenTimeMs = -1;
+        if (gdp.getQueryPacket() != null) {
+            diagramGenMs = gdp.getQueryPacket().getGenDuration();
+            diagramGenTimeMs = gdp.getQueryPacket().getGenTime();
+        }
+        mergeGrids(filePath, planidToGridMap, AllgridsArray, NROWS, NCOLS, diagramGenMs, diagramGenTimeMs);
     }
 }

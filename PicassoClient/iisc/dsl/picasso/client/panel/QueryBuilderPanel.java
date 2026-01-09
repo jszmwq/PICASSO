@@ -276,6 +276,19 @@ text, length);
 				parent.getDBSettingsPanel().setdistribution(0);
 				// a = parent.getDBSettingsPanel().getQtDesc();
 				setPrefix();
+				String loadedFileName = QueryLoader.getLastQueryFileName();
+				if (loadedFileName != null && loadedFileName.length() > 0) {
+					queryFileName = loadedFileName;
+					String baseName = loadedFileName;
+					int dot = baseName.lastIndexOf('.');
+					if (dot > 0) {
+						baseName = baseName.substring(0, dot);
+					}
+					baseName = baseName.trim().replaceAll("\\s+", "_");
+					if (baseName.length() > 0) {
+						queryName.setText(baseName);
+					}
+				}
 				for(int i=0;i<5;i++)
 				{
 					parent.getDBSettingsPanel().locrange[0][i]=0;

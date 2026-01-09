@@ -41,18 +41,26 @@ import java.io.IOException;
 import javax.swing.JFileChooser;
 
 public class QueryLoader {
+    private static String lastQueryFileName = "";
 
 //	 This function is used to get query from file
     public static String getText(MainPanel parent) {
 			JFileChooser chooser = new JFileChooser(new File(PicassoConstants.INPUT_QUERY_FOLDER));
 			int returnVal = chooser.showOpenDialog(parent);
 
-			if (returnVal != JFileChooser.APPROVE_OPTION)
+			if (returnVal != JFileChooser.APPROVE_OPTION) {
+				lastQueryFileName = "";
 				return "";
+			}
 			String path = "";
 				path = chooser.getCurrentDirectory() + "";
+			lastQueryFileName = chooser.getSelectedFile().getName();
 			return read(path + System.getProperty("file.separator")
 					+ chooser.getSelectedFile().getName());
+	}
+
+	public static String getLastQueryFileName() {
+		return lastQueryFileName;
 	}
     
 //  this function is used to read file used by previous function
